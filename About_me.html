@@ -22,8 +22,10 @@
             position: relative;
             margin-left: 20px;
             color: aliceblue;
-            background-position:fixed;
             background-size: cover;
+        }
+        .offcanvas-body{
+            background-color: grey;
         }
         .logo{
             width: 150px;
@@ -44,17 +46,9 @@
             width: 70%;
             text-align: justify;
         }
-        .flex-column li{
-            list-style: bold;
-            display: inline-block;
-            text-align: right;
-            padding:3px;
-        }
-        img{
-            width: 70%;
-        }
-        .offcanvas-body{
-            background-color: grey;
+         .img{
+            width: 150px;
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -76,13 +70,13 @@
                       <a class="nav-link active" aria-current="page" href="home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" href="About_me.html">About me</a>
+                      <a class="nav-link" href="About_me.html">About me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="cv.html">CV</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link " href="publication.html">Publication</a>
+                        <a class="nav-link active" href="publication.html">Publication</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link active" href="Certification.html">Certification</a>
@@ -92,20 +86,10 @@
           </div>
         </div>
       </nav>
-    <h1>Publication</h1>
-    <dt>Mapreduce: Data Processing in large clusters<br>Applications and Implementations</dt>
-    <ul class="flex-column">
-        <li>by Bharath R</li>
-        <li><i class="fa fa-calendar" aria-hidden="true"></i> Dec 17,2020</li>
-    </ul>
-    <img src="Mapreduce Certificate of publication.jpg" alt="Publication Certificate">
-    <img src="1.jpg" alt="Page 1">
-    <img src="2.jpg" alt="Page 2">
-    <img src="3.jpg" alt="Page 3">
-    <img src="4.jpg" alt="Page 4">
-    <img src="5.jpg" alt="Page 5">
-    <img src="6.jpg" alt="Page 6">
-    <img src="7.jpg" alt="Page 7">
+    <h1>About me</h1>
+    <img src="image.png" class="img">
+    <dt>Bharath R</dt>
+    <dd>Hey there! I’m a passionate android developer with project management skills.I’ve successfully deployed and maintained apps with a growing user base.I enjoy exploring and keeping track of opensource projects.I am eager to finding ways to implement existing & new technologies for a better tomorrow. </dd>
     <footer class="w-100 py-4 flex-shrink-0">
         <div class="container py-4">
             <div class="row gy-4 gx-5">
